@@ -1,71 +1,80 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Quantum Python Lectures by tommyogden</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Quantum Python Lectures</h1>
-        <p>A series of self-study lectures on using Python for scientific computing at the graduate level in atomic physics and quantum optics.</p>
+<div class="home">
 
-        <p class="view"><a href="https://github.com/tommyogden/quantum-python-lectures">View the Project on GitHub <small>tommyogden/quantum-python-lectures</small></a></p>
+  <!-- <h1 class="page-heading">Introduction</h1> -->
 
+  <!-- <h2>Introduction</h2> -->
 
-        <ul>
-          <li><a href="https://github.com/tommyogden/quantum-python-lectures/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/tommyogden/quantum-python-lectures/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/tommyogden/quantum-python-lectures">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+  <p>{{ site.description }}</p>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<figure style="width: 33%; float: right;">
+  <img  src="/assets/gif/pixel_python.gif" />
+<!-- <figcaption>Fig 1: Pixel Python</figcaption> -->
+</figure>
+  <p>It aims to introduce you to using Python in both theoretical and experimental contexts through some common in-lab examples, like: 
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+  <ul>
+  <li>Reading data from a photon counter</li>
+  <li>Binning and smoothing data</li>
+  <li>Finding the steady state of an open quantum system</li>
+  <li>Making a publication-quality plot</li>
+  </ul>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+  </p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<!-- It aims to prepare students to use Python as a general-purpose programming language in research, to be used both in theoretical and experimental contexts. Tasks like data taking/handling/analysis, generating publication-quality plots, solving differential equations,... will be covered, following the standards in the scientific community.
+It consists of self-contained topics that focus on different tasks: Input/Output, plotting, data analysis and scientific computation. They can be coursed separately if required, according to the needs of each particular student. The course is delivered as a series of worked examples that can be used online or as part of the graduate course in Atomic and Molecular Physics. An experienced user will guide the students through the sections and the examples in morning/afternoon long tutorials, to help the students in understanding the tasks at hand, and support them in the usage of Python.
+ -->
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+  <!-- <h3>What this is not?</h3> -->
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+  <p>This is <strong>not</strong> an introduction to programming nor Python. It is a prerequisite that you already have Python working on your computer along with the standard scientific computing libraries: Numpy, Scipy and Matplotlib. </p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+  <p>If you need help with Python or getting it installed there are many resources online, including the <a href="http://labs.physics.dur.ac.uk/computing/resources/python.php">Durham Physics Lab Guide to Python</a>. We&rsquo;ve listed more on the <a href="/resources/">Resources</a> page.</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+  <p>The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Methods. Each section has an associated problem for you to test your understanding.</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+  <h2>Lectures</h2>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+  <h3>I/O</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/tommyogden">tommyogden</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+  <ol>
+    <li>Pickling{% include nf.html %}</li>
+    <li>Reading CSV{% include nf.html %}</li>
+  </ol>
+
+  <h3>Plotting</h3>
+
+  <ol start="3">
+    <li>Lineshape Analysis{% include nf.html %}</li>
+  </ol>
+
+  <h3>Data Analysis</h3>
+
+  <ol start="4">
+    <li>Smoothing and Binning{% include nf.html %}</li>
+  </ol>
+
+  <h3>Numerical Methods</h3>
+
+  <ol start="5">
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/dddc53ru5mr555w/Numerics-Integrating_ODEs_1.ipynb">Integrating ODEs, Part 1</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/ev98a3w2x7epuo8/Numerics-Integrating_ODEs_2.ipynb">Integrating ODEs, Part 2</a></li>
+    <li>Integrating ODEs, Part 3{% include nf.html %}</li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/lkuf6taa1ute93v/Numerics-Integrating_ODEs_4.ipynb">Integrating ODEs, Part 4</a></li>
+
+  </ol>
+
+  <h2>Problems</h2>
+
+  <ol>
+    <li>I/O{% include nf.html %}</li>
+    <li>Plotting{% include nf.html %}</li>
+    <li>Data Analysis{% include nf.html %}</li>
+    <li>Numerical Methods{% include nf.html %}</li>
+  </ol>
+
+</div>
