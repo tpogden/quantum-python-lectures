@@ -1,7 +1,5 @@
 ---
 layout: default
-title: About
-permalink: /
 ---
 
 <!-- <div class="home"> -->
