@@ -31,8 +31,7 @@ The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Me
 ### I/O
 
   <ol>
-    <li>Pickling{% include nf.html %}</li>
-    <li>Reading CSV{% include nf.html %}</li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/nzeuexr03h3zmow/1_Reading-and-Writing-Files.ipynb?dl=0">Reading and Writing Files</a></li>
   </ol>
 
 ### Plotting
@@ -44,7 +43,7 @@ The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Me
 ### Data Analysis
 
   <ol start="4">
-    <li>Smoothing and Binning{% include nf.html %}</li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/e6xnie0z1g4j3mx/4_Smoothing-and-Binning-Data.ipynb">Smoothing and Binning Data</a></li>
   </ol>
 
 ### Integrating <abbr title="Ordinary Differential Equations">ODEs</abbr>
