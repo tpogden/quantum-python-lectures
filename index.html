@@ -26,17 +26,11 @@ layout: default
 
   </p>
 
-<!-- It aims to prepare students to use Python as a general-purpose programming language in research, to be used both in theoretical and experimental contexts. Tasks like data taking/handling/analysis, generating publication-quality plots, solving differential equations,... will be covered, following the standards in the scientific community.
-It consists of self-contained topics that focus on different tasks: Input/Output, plotting, data analysis and scientific computation. They can be coursed separately if required, according to the needs of each particular student. The course is delivered as a series of worked examples that can be used online or as part of the graduate course in Atomic and Molecular Physics. An experienced user will guide the students through the sections and the examples in morning/afternoon long tutorials, to help the students in understanding the tasks at hand, and support them in the usage of Python.
- -->
-
-  <!-- <h3>What this is not?</h3> -->
-
   <p>This is <strong>not</strong> an introduction to programming nor Python. You don't need to install anything to read the lectures, but if you want to download and use the example code it is a prerequisite that you already have Python working on your computer along with the standard scientific computing libraries: Numpy, Scipy and Matplotlib. </p>
 
-  <p>If you need help with Python or getting it installed there are many resources online, including the <a href="http://labs.physics.dur.ac.uk/computing/resources/python.php">Durham Physics Lab Guide to Python</a>. We&rsquo;ve listed more on the <a href="/resources/">Resources</a> page.</p>
+  <p>If you need help with Python or getting it installed there are many resources online, including the <a href="http://labs.physics.dur.ac.uk/computing/resources/python.php">Durham Physics Lab Guide to Python</a>. We&rsquo;ve listed more on the <a href="{{ site.baseurl }}/resources/">Resources</a> page.</p>
 
-  <p>The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Methods. Each section has an associated problem for you to test your understanding.</p>
+  <p>The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Methods.</p> <!-- Each section has an associated problem for you to test your understanding.</p> -->
 
   <h2>Lectures</h2>
 
@@ -50,7 +44,7 @@ It consists of self-contained topics that focus on different tasks: Input/Output
   <h3>Plotting</h3>
 
   <ol start="3">
-    <li>Lineshape Analysis{% include nf.html %}</li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/nawiwv75cmk8p85/3_Lineshape-Comparison-and-Analysis.ipynb?dl=0">Lineshape Comparison and Analysis</a></li>
   </ol>
 
   <h3>Data Analysis</h3>
@@ -59,23 +53,30 @@ It consists of self-contained topics that focus on different tasks: Input/Output
     <li>Smoothing and Binning{% include nf.html %}</li>
   </ol>
 
-  <h3>Numerical Methods</h3>
-
+  <h3>Integrating <abbr title="Ordinary Differential Equations">ODEs</abbr></h3>
+<!-- 
   <ol start="5">
     <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/dddc53ru5mr555w/Numerics-Integrating_ODEs_1.ipynb">Integrating ODEs, Part 1</a></li>
     <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/ev98a3w2x7epuo8/Numerics-Integrating_ODEs_2.ipynb">Integrating ODEs, Part 2</a></li>
-    <li>Integrating ODEs, Part 3{% include nf.html %}</li>
+    <li>Integrating ODEs, Part 3</li>
     <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/lkuf6taa1ute93v/Numerics-Integrating_ODEs_4.ipynb">Integrating ODEs, Part 4</a></li>
+  </ol> -->
 
+  <ol start="5">
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/24jy7cqans7lcyy/5_The-Explicit-Euler-Method-and-Order-of-Accuracy.ipynb">The Explicit Euler Method and Order of Accuracy</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/1e3lwvtpqgo1789/6_The-Runge-Kutta-Method-Higher-Order-ODEs-and-Multistep-Methods.ipynb">The Runge-Kutta Method, Higher-Order ODEs and Multistep Methods</a></li>
+    <li>Stiff Problems, Implicit Methods and Computational Cost{% include nf.html %}</li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/e14caw0z171igvo/8_Integrating-with-SciPy-and-QuTiP.ipynb">Integrating with SciPy and QuTiP</a></li>
   </ol>
+<!-- Put in when the problems are ready -->
 
-  <h2>Problems</h2>
+<!--   <h2>Problems</h2>
 
   <ol>
     <li>I/O{% include nf.html %}</li>
     <li>Plotting{% include nf.html %}</li>
     <li>Data Analysis{% include nf.html %}</li>
     <li>Numerical Methods{% include nf.html %}</li>
-  </ol>
+  </ol> -->
 
 </div>

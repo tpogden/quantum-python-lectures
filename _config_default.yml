@@ -4,8 +4,8 @@ email: t.p.ogden@durham.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   A series of self-study lectures on using Python for scientific 
   computing at the graduate level in atomic physics and quantum optics.
-baseurl: "/training/python" # the subpath of your site, e.g. /blog/
-url: "http://massey.dur.ac.uk" # the base hostname & protocol for your site
+baseurl: "/quantum-python-lectures/" # the subpath of your site, e.g. /blog/
+url: "http://tommyogden.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
