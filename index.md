@@ -36,13 +36,14 @@ The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Me
 
 ### Plotting
 
-  <ol start="3">
+  <ol start="2">
     <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/nawiwv75cmk8p85/3_Lineshape-Comparison-and-Analysis.ipynb?dl=0">Lineshape Comparison and Analysis</a></li>
   </ol>
 
 ### Data Analysis
 
-  <ol start="4">
+  <ol start="3">
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/kmlf6xx84yn0o3u/3_Fitting-Data-to-Theory.ipynb">Fitting Data to Theory</a></li>
     <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/e6xnie0z1g4j3mx/4_Smoothing-and-Binning-Data.ipynb">Smoothing and Binning Data</a></li>
   </ol>
 
@@ -53,6 +54,13 @@ The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Me
     <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/1e3lwvtpqgo1789/6_The-Runge-Kutta-Method-Higher-Order-ODEs-and-Multistep-Methods.ipynb">The Runge-Kutta Method, Higher-Order ODEs and Multistep Methods</a></li>
     <li>Stiff Problems, Implicit Methods and Computational Cost{% include nf.html %}</li>
     <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/e14caw0z171igvo/8_Integrating-with-SciPy-and-QuTiP.ipynb">Integrating with SciPy and QuTiP</a></li>
+  </ol>
+
+### Monte Carlo Methods
+
+  <ol start="9">
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/4vbwmslponp41st/9_Monte-Carlo-Calculating-Pi.ipynb">Calculating &pi;</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/c6ovv92ukv81ahf/10_Monte-Carlo-Maxwell-Boltzmann-Distributions.ipynb">Maxwell-Boltzmann Distributions</a></li>
   </ol>
 
 <!-- Put in when the problems are ready -->
