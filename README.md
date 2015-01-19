@@ -47,8 +47,8 @@ The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Me
     <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/8_Stiff-Problems-Implicit-Methods-and-Computational-Cost.ipynb">Stiff Problems, Implicit Methods and Computational Cost</a></li>
     <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/9_Integrating-with-SciPy-and-QuTiP.ipynb">Integrating with SciPy and QuTiP</a></li>
   </ol>
-
-  ### Monte Carlo Methods
+  
+### Monte Carlo Methods
 
   <ol start="10">
     <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/10_Monte-Carlo-Calculating-Pi.ipynb">Calculating π</a></li>
