@@ -22,27 +22,35 @@ The lectures are in four sections: I/O, Plotting, Data Analysis and Numerical Me
 ### I/O
 
   <ol>
-    <li>Pickling</li>
-    <li>Reading CSV</li>
+   <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/1_Reading-and-Writing-Files.ipynb">Reading and Writing Files</a></li>
   </ol>
 
 ### Plotting
 
-  <ol start="3">
-    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/nawiwv75cmk8p85/3_Lineshape-Comparison-and-Analysis.ipynb?dl=0">Lineshape Comparison and Analysis</a></li>
+  <ol start="2">
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/2_Publication-Quality-Plot.ipynb">Publication quality plot</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/3_Lineshape-Comparison-and-Analysis.ipynb">Lineshape Comparison and Analysis</a></li>
   </ol>
 
 ### Data Analysis
 
   <ol start="4">
-    <li>Smoothing and Binning</li>
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/4_Fitting-Data-to-Theory.ipynb">Fitting Data to Theory</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/5_Smoothing-and-Binning-Data.ipynb">Smoothing and Binning</a></li>
   </ol>
 
 ### Integrating <abbr title="Ordinary Differential Equations">ODEs</abbr>
 
-  <ol start="5">
-    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/24jy7cqans7lcyy/5_The-Explicit-Euler-Method-and-Order-of-Accuracy.ipynb">The Explicit Euler Method and Order of Accuracy</a></li>
-    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/1e3lwvtpqgo1789/6_The-Runge-Kutta-Method-Higher-Order-ODEs-and-Multistep-Methods.ipynb">The Runge-Kutta Method, Higher-Order ODEs and Multistep Methods</a></li>
-    <li>Stiff Problems, Implicit Methods and Computational Cost</li>
-    <li><a href="http://nbviewer.ipython.org/urls/dl.dropbox.com/s/e14caw0z171igvo/8_Integrating-with-SciPy-and-QuTiP.ipynb">Integrating with SciPy and QuTiP</a></li>
+  <ol start="6">
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/6_The-Explicit-Euler-Method-and-Order-of-Accuracy.ipynb">The Explicit Euler Method and Order of Accuracy</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/7_The-Runge-Kutta-Method-Higher-Order-ODEs-and-Multistep-Methods.ipynb">The Runge-Kutta Method, Higher-Order ODEs and Multistep Methods</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/8_Stiff-Problems-Implicit-Methods-and-Computational-Cost.ipynb">Stiff Problems, Implicit Methods and Computational Cost</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/9_Integrating-with-SciPy-and-QuTiP.ipynb">Integrating with SciPy and QuTiP</a></li>
+  </ol>
+
+  ### Monte Carlo Methods
+
+  <ol start="10">
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/10_Monte-Carlo-Calculating-Pi.ipynb">Calculating π</a></li>
+    <li><a href="http://nbviewer.ipython.org/urls/github.com/tommyogden/quantum-python-lectures/blob/master/11_Monte-Carlo-Maxwell-Boltzmann-Distributions.ipynb">Maxwell-Boltzmann Distributions</a></li>
   </ol>
